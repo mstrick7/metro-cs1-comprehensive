@@ -12,7 +12,7 @@ public class Elipsoid extends Geometric {
 
     @Override
     public double getArea() {
-        return Math.PI * semiMinor * semiMinor;
+        return Math.PI * semiMajor * semiMinor;
     }
 
     @Override
